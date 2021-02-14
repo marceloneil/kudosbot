@@ -1,0 +1,17 @@
+configmap:
+
+  server:
+    slackAppToken: "" 
+    slackBotToken: ""
+
+  database:
+    dbname: "kudos"
+    host: "localhost"
+    isMigrationEnabled: true
+    migrationPath: "migration"
+    password: "kudos"
+    port: 5432
+    sslMode: "disable"
+    username: "kudos"
+    version: "11.5"
+    maxConnections: 25
